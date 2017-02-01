@@ -7,6 +7,7 @@
 "rex-b\stm32l0xx_it.o"
 "rex-b\stm32l0xx_hal_msp.o"
 "rex-b\tim.o"
+"rex-b\dma.o"
 "rex-b\startup_stm32l073xx.o"
 "rex-b\stm32l0xx_hal_rcc.o"
 "rex-b\stm32l0xx_hal_pwr.o"

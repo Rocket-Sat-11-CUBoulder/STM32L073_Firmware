@@ -34,3 +34,4 @@ rex-b\usart.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h
 rex-b\usart.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h
 rex-b\usart.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h
 rex-b\usart.o: ../Inc/gpio.h
+rex-b\usart.o: ../Inc/dma.h

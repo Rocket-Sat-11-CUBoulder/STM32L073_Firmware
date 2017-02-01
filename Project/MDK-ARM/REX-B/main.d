@@ -32,6 +32,7 @@ rex-b\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h
 rex-b\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h
 rex-b\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h
 rex-b\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h
+rex-b\main.o: ../Inc/dma.h
 rex-b\main.o: ../Inc/i2c.h
 rex-b\main.o: ../Inc/spi.h
 rex-b\main.o: ../Inc/tim.h

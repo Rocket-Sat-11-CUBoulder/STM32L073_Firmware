@@ -33,6 +33,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32l0xx_hal.h"
+#include "dma.h"
 #include "i2c.h"
 #include "spi.h"
 #include "tim.h"
@@ -80,6 +81,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_I2C1_Init();
   MX_SPI1_Init();
   MX_SPI2_Init();
@@ -87,15 +89,41 @@ int main(void)
   MX_USART2_UART_Init();
   MX_USART4_UART_Init();
   MX_TIM2_Init();
+	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
 
   /* USER CODE BEGIN 2 */
+	/*
+TIM2->PSC = 15;
+TIM2->ARR = 8;
+TIM2->CCR1 = 4;
+TIM2->CCMR1 |= TIM_CCMR1_OC1M_2 | TIM_CCMR1_OC1M_1 | TIM_CCMR1_OC1PE;
+TIM2->CCER |= TIM_CCER_CC1E;
+TIM2->CR1 |= TIM_CR1_CEN;
+TIM2->EGR |= TIM_EGR_UG;
 
+	RCC->IOPENR |= RCC_IOPENR_GPIOAEN;
+	GPIOA->MODER |= GPIO_MODER_MODE5_0;
+	GPIOA->MODER &= ~GPIO_MODER_MODE5_1;
+	GPIOA->MODER |= GPIO_MODER_MODE15_0;
+	GPIOA->MODER &= ~GPIO_MODER_MODE15_1;
+	*/
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+		/*
+		if(TIM2->SR & 2){
+			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+		}
+		else{
+			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET)
+		}
+		if(TIM2->CNT <= 120){
+			TIM2->SR &= ~2;
+		}*/
+		
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
