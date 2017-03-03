@@ -39,6 +39,7 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
+#include <stdio.h>
 
 /* USER CODE BEGIN Includes */
 
@@ -61,8 +62,14 @@ void Error_Handler(void);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
+struct data{
+	uint8_t x;
+	uint8_t y;
+	uint8_t z;
+}data;
 
 /* USER CODE END 0 */
+
 
 int main(void)
 {
@@ -89,43 +96,30 @@ int main(void)
   MX_USART2_UART_Init();
   MX_USART4_UART_Init();
   MX_TIM2_Init();
+	//MX_USART5_UART_Init();
 	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
 
   /* USER CODE BEGIN 2 */
-	/*
-TIM2->PSC = 15;
-TIM2->ARR = 8;
-TIM2->CCR1 = 4;
-TIM2->CCMR1 |= TIM_CCMR1_OC1M_2 | TIM_CCMR1_OC1M_1 | TIM_CCMR1_OC1PE;
-TIM2->CCER |= TIM_CCER_CC1E;
-TIM2->CR1 |= TIM_CR1_CEN;
-TIM2->EGR |= TIM_EGR_UG;
-
-	RCC->IOPENR |= RCC_IOPENR_GPIOAEN;
-	GPIOA->MODER |= GPIO_MODER_MODE5_0;
-	GPIOA->MODER &= ~GPIO_MODER_MODE5_1;
-	GPIOA->MODER |= GPIO_MODER_MODE15_0;
-	GPIOA->MODER &= ~GPIO_MODER_MODE15_1;
-	*/
+	data.y = 0x0A;
+	data.z = 0x0D;
+	uint8_t temp = 0xAA;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		/*
-		if(TIM2->SR & 2){
-			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
-		}
-		else{
-			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET)
-		}
-		if(TIM2->CNT <= 120){
-			TIM2->SR &= ~2;
-		}*/
-		
   /* USER CODE END WHILE */
-
+	//uint32_t i;
+	//HAL_UART_Transmit(&huart1, (uint8_t *)&data, 2*sizeof(uint8_t), 0x20);
+	//for(i=0;i<10000;i++);
+		
+	HAL_UART_Transmit(&huart2, (uint8_t *)&data, 3*sizeof(uint8_t), 0x20);
+		
+	HAL_I2C_Master_Receive_IT(&hi2c1, (uint16_t)(0b1101000), &temp, sizeof(uint8_t));
+		
+	data.x = temp;
+		
   /* USER CODE BEGIN 3 */
 
   }
