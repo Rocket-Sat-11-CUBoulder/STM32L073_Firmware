@@ -1,0 +1,1356 @@
+Dependencies for Project 'REX-B', Target 'REX-B': (DO NOT MODIFY !)
+F (../Src/gpio.c)(0x58D1B35C)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\gpio.o --omf_browse rex-b\gpio.crf --depend rex-b\gpio.d)
+I (../Inc/gpio.h)(0x58D1B35C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Src/spi.c)(0x58D1B36F)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\spi.o --omf_browse rex-b\spi.crf --depend rex-b\spi.d)
+I (../Inc/spi.h)(0x58D1B370)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+I (../Inc/gpio.h)(0x58D1B35C)
+F (../Src/i2c.c)(0x58D1B36E)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\i2c.o --omf_browse rex-b\i2c.crf --depend rex-b\i2c.d)
+I (../Inc/i2c.h)(0x58D1B36E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+I (../Inc/gpio.h)(0x58D1B35C)
+F (../Src/usart.c)(0x58D1B379)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\usart.o --omf_browse rex-b\usart.crf --depend rex-b\usart.d)
+I (../Inc/usart.h)(0x58D1B37A)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+I (../Inc/gpio.h)(0x58D1B35C)
+I (../Inc/dma.h)(0x58D1B368)
+F (../Src/main.c)(0x58D1B37D)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\main.o --omf_browse rex-b\main.crf --depend rex-b\main.d)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+I (../Inc/adc.h)(0x58D1B367)
+I (../Inc/dma.h)(0x58D1B368)
+I (../Inc/fatfs.h)(0x58D1B36C)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x5859AE3A)
+I (../Inc/ffconf.h)(0x58D1B369)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x5859AE3A)
+I (../Inc/user_diskio.h)(0x58D1B36A)
+I (../Inc/i2c.h)(0x58D1B36E)
+I (../Inc/spi.h)(0x58D1B370)
+I (../Inc/tim.h)(0x58D1B377)
+I (../Inc/usart.h)(0x58D1B37A)
+I (../Inc/gpio.h)(0x58D1B35C)
+F (../Src/stm32l0xx_it.c)(0x58D1B37A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_it.o --omf_browse rex-b\stm32l0xx_it.crf --depend rex-b\stm32l0xx_it.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+I (../Inc/stm32l0xx_it.h)(0x58D1B37A)
+F (../Src/stm32l0xx_hal_msp.c)(0x58D1B37B)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_msp.o --omf_browse rex-b\stm32l0xx_hal_msp.crf --depend rex-b\stm32l0xx_hal_msp.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Src/tim.c)(0x58D1B377)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\tim.o --omf_browse rex-b\tim.crf --depend rex-b\tim.d)
+I (../Inc/tim.h)(0x58D1B377)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Src/dma.c)(0x58D1B368)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\dma.o --omf_browse rex-b\dma.crf --depend rex-b\dma.d)
+I (../Inc/dma.h)(0x58D1B368)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Src/fatfs.c)(0x58D1B36C)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\fatfs.o --omf_browse rex-b\fatfs.crf --depend rex-b\fatfs.d)
+I (../Inc/fatfs.h)(0x58D1B36C)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x5859AE3A)
+I (../Inc/ffconf.h)(0x58D1B369)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x5859AE3A)
+I (../Inc/user_diskio.h)(0x58D1B36A)
+F (../Src/user_diskio.c)(0x58D1B36A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\user_diskio.o --omf_browse rex-b\user_diskio.crf --depend rex-b\user_diskio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6D9A8)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x5859AE3A)
+I (../Inc/ffconf.h)(0x58D1B369)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Src/adc.c)(0x58D1B367)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\adc.o --omf_browse rex-b\adc.crf --depend rex-b\adc.d)
+I (../Inc/adc.h)(0x58D1B367)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+I (../Inc/gpio.h)(0x58D1B35C)
+F (startup_stm32l073xx.s)(0x58D1B385)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1" --pd "STM32L073xx SETA 1"--list startup_stm32l073xx.lst --xref -o rex-b\startup_stm32l073xx.o --depend rex-b\startup_stm32l073xx.d)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_rcc.o --omf_browse rex-b\stm32l0xx_hal_rcc.crf --depend rex-b\stm32l0xx_hal_rcc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_pwr.o --omf_browse rex-b\stm32l0xx_hal_pwr.crf --depend rex-b\stm32l0xx_hal_pwr.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_rcc_ex.o --omf_browse rex-b\stm32l0xx_hal_rcc_ex.crf --depend rex-b\stm32l0xx_hal_rcc_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_tim_ex.o --omf_browse rex-b\stm32l0xx_hal_tim_ex.crf --depend rex-b\stm32l0xx_hal_tim_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_cortex.o --omf_browse rex-b\stm32l0xx_hal_cortex.crf --depend rex-b\stm32l0xx_hal_cortex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_flash_ramfunc.o --omf_browse rex-b\stm32l0xx_hal_flash_ramfunc.crf --depend rex-b\stm32l0xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_spi.o --omf_browse rex-b\stm32l0xx_hal_spi.crf --depend rex-b\stm32l0xx_hal_spi.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_flash.o --omf_browse rex-b\stm32l0xx_hal_flash.crf --depend rex-b\stm32l0xx_hal_flash.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_i2c.o --omf_browse rex-b\stm32l0xx_hal_i2c.crf --depend rex-b\stm32l0xx_hal_i2c.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_tim.o --omf_browse rex-b\stm32l0xx_hal_tim.crf --depend rex-b\stm32l0xx_hal_tim.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal.o --omf_browse rex-b\stm32l0xx_hal.crf --depend rex-b\stm32l0xx_hal.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_uart_ex.o --omf_browse rex-b\stm32l0xx_hal_uart_ex.crf --depend rex-b\stm32l0xx_hal_uart_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_dma.o --omf_browse rex-b\stm32l0xx_hal_dma.crf --depend rex-b\stm32l0xx_hal_dma.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_i2c_ex.o --omf_browse rex-b\stm32l0xx_hal_i2c_ex.crf --depend rex-b\stm32l0xx_hal_i2c_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_gpio.o --omf_browse rex-b\stm32l0xx_hal_gpio.crf --depend rex-b\stm32l0xx_hal_gpio.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_pwr_ex.o --omf_browse rex-b\stm32l0xx_hal_pwr_ex.crf --depend rex-b\stm32l0xx_hal_pwr_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_uart.o --omf_browse rex-b\stm32l0xx_hal_uart.crf --depend rex-b\stm32l0xx_hal_uart.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_flash_ex.o --omf_browse rex-b\stm32l0xx_hal_flash_ex.crf --depend rex-b\stm32l0xx_hal_flash_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_adc.o --omf_browse rex-b\stm32l0xx_hal_adc.crf --depend rex-b\stm32l0xx_hal_adc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c)(0x5859AE39)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\stm32l0xx_hal_adc_ex.o --omf_browse rex-b\stm32l0xx_hal_adc_ex.crf --depend rex-b\stm32l0xx_hal_adc_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Src/system_stm32l0xx.c)(0x588AAA7D)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\system_stm32l0xx.o --omf_browse rex-b\system_stm32l0xx.crf --depend rex-b\system_stm32l0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.c)(0x5859AE3A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\ff_gen_drv.o --omf_browse rex-b\ff_gen_drv.crf --depend rex-b\ff_gen_drv.d)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x5859AE3A)
+I (../Inc/ffconf.h)(0x58D1B369)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Middlewares/Third_Party/FatFs/src/ff.c)(0x5859AE3A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\ff.o --omf_browse rex-b\ff.crf --depend rex-b\ff.d)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x5859AE3A)
+I (../Inc/ffconf.h)(0x58D1B369)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x5859AE3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F6D9A8)
+F (../Middlewares/Third_Party/FatFs/src/diskio.c)(0x5859AE3A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\diskio.o --omf_browse rex-b\diskio.crf --depend rex-b\diskio.d)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x5859AE3A)
+I (../Inc/ffconf.h)(0x58D1B369)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
+F (../Middlewares/Third_Party/FatFs/src/option/syscall.c)(0x5859AE3A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FatFs/src --C99-IC:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\STM32CUBEMX\REX-B\MDK-ARM\RTE\_REX-B-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o rex-b\syscall.o --omf_browse rex-b\syscall.crf --depend rex-b\syscall.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6D9A8)
+I (../Middlewares/Third_Party/FatFs/src/option/../ff.h)(0x5859AE3A)
+I (../Middlewares/Third_Party/FatFs/src/option/../integer.h)(0x5859AE3A)
+I (../Inc/ffconf.h)(0x58D1B369)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5859AE39)
+I (../Inc/stm32l0xx_hal_conf.h)(0x58D1B37C)
+I (../Inc/main.h)(0x58D1B37C)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x5859AE33)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6D9A8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5859AE39)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5859AE33)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5859AE39)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6D9A8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5859AE39)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5859AE39)
