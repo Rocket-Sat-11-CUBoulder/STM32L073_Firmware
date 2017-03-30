@@ -46,9 +46,7 @@
 #include "adc.h"
 #include "dma.h"
 #include "fatfs.h"
-#include "i2c.h"
 #include "spi.h"
-#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -95,32 +93,33 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_I2C1_Init();
   MX_SPI1_Init();
-  MX_SPI2_Init();
   MX_USART1_UART_Init();
-  MX_USART2_UART_Init();
-  MX_USART4_UART_Init();
-  MX_TIM2_Init();
-  MX_USART5_UART_Init();
-  MX_I2C2_Init();
   MX_FATFS_Init();
   MX_ADC_Init();
-	uint32_t i;
-	for(i=0;i<10000;i++);
+  MX_USART2_UART_Init();
+
   /* Initialize interrupts */
   MX_NVIC_Init();
 
   /* USER CODE BEGIN 2 */
-
+	uint8_t data_A = 0x41;
+	uint8_t data_Space = 0x20;
+	HAL_ADC_Start(&hadc);
+	uint32_t humidity;
   /* USER CODE END 2 */
-
+	
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
   /* USER CODE END WHILE */
-
+	uint32_t i;
+	HAL_ADC_PollForConversion(&hadc, 0x20);
+	humidity = HAL_ADC_GetValue(&hadc);
+	for(i=0;i<1000;i++);
+	HAL_UART_Transmit(&huart2, (uint8_t *)&humidity, sizeof(uint8_t), 0x20);
+	HAL_UART_Transmit(&huart2, &data_Space, sizeof(uint8_t), 0x20);	
   /* USER CODE BEGIN 3 */
 
   }
@@ -169,11 +168,9 @@ void SystemClock_Config(void)
     Error_Handler();
   }
 
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1|RCC_PERIPHCLK_USART2
-                              |RCC_PERIPHCLK_I2C1;
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1|RCC_PERIPHCLK_USART2;
   PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
   PeriphClkInit.Usart2ClockSelection = RCC_USART2CLKSOURCE_PCLK1;
-  PeriphClkInit.I2c1ClockSelection = RCC_I2C1CLKSOURCE_PCLK1;
   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
     Error_Handler();

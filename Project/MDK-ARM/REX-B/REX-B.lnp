@@ -1,12 +1,10 @@
 --cpu Cortex-M0+
 "rex-b\gpio.o"
 "rex-b\spi.o"
-"rex-b\i2c.o"
 "rex-b\usart.o"
 "rex-b\main.o"
 "rex-b\stm32l0xx_it.o"
 "rex-b\stm32l0xx_hal_msp.o"
-"rex-b\tim.o"
 "rex-b\dma.o"
 "rex-b\fatfs.o"
 "rex-b\user_diskio.o"

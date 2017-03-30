@@ -84,8 +84,16 @@ void MX_ADC_Init(void)
 
     /**Configure for the selected ADC regular channel to be converted. 
     */
-  sConfig.Channel = ADC_CHANNEL_1;
+  sConfig.Channel = ADC_CHANNEL_0;
   sConfig.Rank = ADC_RANK_CHANNEL_NUMBER;
+  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+    /**Configure for the selected ADC regular channel to be converted. 
+    */
+  sConfig.Channel = ADC_CHANNEL_1;
   if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
   {
     Error_Handler();
@@ -115,6 +123,46 @@ void MX_ADC_Init(void)
     Error_Handler();
   }
 
+    /**Configure for the selected ADC regular channel to be converted. 
+    */
+  sConfig.Channel = ADC_CHANNEL_10;
+  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+    /**Configure for the selected ADC regular channel to be converted. 
+    */
+  sConfig.Channel = ADC_CHANNEL_11;
+  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+    /**Configure for the selected ADC regular channel to be converted. 
+    */
+  sConfig.Channel = ADC_CHANNEL_12;
+  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+    /**Configure for the selected ADC regular channel to be converted. 
+    */
+  sConfig.Channel = ADC_CHANNEL_13;
+  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+    /**Configure for the selected ADC regular channel to be converted. 
+    */
+  sConfig.Channel = ADC_CHANNEL_14;
+  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
 }
 
 void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)
@@ -130,20 +178,32 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)
     __HAL_RCC_ADC1_CLK_ENABLE();
   
     /**ADC GPIO Configuration    
+    PC0     ------> ADC_IN10
+    PC1     ------> ADC_IN11
+    PC2     ------> ADC_IN12
+    PC3     ------> ADC_IN13
+    PA0     ------> ADC_IN0
     PA1     ------> ADC_IN1
     PA3     ------> ADC_IN3
     PA4     ------> ADC_IN4
+    PC4     ------> ADC_IN14
     PB0     ------> ADC_IN8 
     */
-    GPIO_InitStruct.Pin = ACCEL_X_Pin|ACCEL_Y_Pin|ACCEL_Z_Pin;
+    GPIO_InitStruct.Pin = TEMP_2_Pin|TEMP_1_Pin|PRESSURE_1_Pin|PRESSURE_2_Pin 
+                          |TEMP_3_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+    GPIO_InitStruct.Pin = ACCEL_X_Pin|ACCEL_Y_Pin|PRESSURE_3_Pin|ACCEL_Z_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = Humidity_Pin;
+    GPIO_InitStruct.Pin = PRESSURE_1B0_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
-    HAL_GPIO_Init(Humidity_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(PRESSURE_1B0_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN ADC1_MspInit 1 */
 
@@ -163,14 +223,23 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
     __HAL_RCC_ADC1_CLK_DISABLE();
   
     /**ADC GPIO Configuration    
+    PC0     ------> ADC_IN10
+    PC1     ------> ADC_IN11
+    PC2     ------> ADC_IN12
+    PC3     ------> ADC_IN13
+    PA0     ------> ADC_IN0
     PA1     ------> ADC_IN1
     PA3     ------> ADC_IN3
     PA4     ------> ADC_IN4
+    PC4     ------> ADC_IN14
     PB0     ------> ADC_IN8 
     */
-    HAL_GPIO_DeInit(GPIOA, ACCEL_X_Pin|ACCEL_Y_Pin|ACCEL_Z_Pin);
+    HAL_GPIO_DeInit(GPIOC, TEMP_2_Pin|TEMP_1_Pin|PRESSURE_1_Pin|PRESSURE_2_Pin 
+                          |TEMP_3_Pin);
 
-    HAL_GPIO_DeInit(Humidity_GPIO_Port, Humidity_Pin);
+    HAL_GPIO_DeInit(GPIOA, ACCEL_X_Pin|ACCEL_Y_Pin|PRESSURE_3_Pin|ACCEL_Z_Pin);
+
+    HAL_GPIO_DeInit(PRESSURE_1B0_GPIO_Port, PRESSURE_1B0_Pin);
 
   }
   /* USER CODE BEGIN ADC1_MspDeInit 1 */
