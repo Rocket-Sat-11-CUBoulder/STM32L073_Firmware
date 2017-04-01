@@ -49,6 +49,7 @@
 #include "spi.h"
 #include "usart.h"
 #include "gpio.h"
+#include "User_Functions.h"
 
 /* USER CODE BEGIN Includes */
 
@@ -103,10 +104,15 @@ int main(void)
   MX_NVIC_Init();
 
   /* USER CODE BEGIN 2 */
-	uint8_t data_A = 0x41;
-	uint8_t data_Space = 0x20;
+	uint8_t data_A = 'A';
+	uint8_t data_Space = ' ';
+	uint8_t *data_r_n = "\n\r";
+	uint8_t *data_accel_x = "Accelerometer X: \n\r";
+	
 	HAL_ADC_Start(&hadc);
-	uint32_t humidity;
+	uint32_t adc;
+
+	uint32_t place = 0;
   /* USER CODE END 2 */
 	
   /* Infinite loop */
@@ -115,11 +121,20 @@ int main(void)
   {
   /* USER CODE END WHILE */
 	uint32_t i;
-	HAL_ADC_PollForConversion(&hadc, 0x20);
-	humidity = HAL_ADC_GetValue(&hadc);
-	for(i=0;i<1000;i++);
-	HAL_UART_Transmit(&huart2, (uint8_t *)&humidity, sizeof(uint8_t), 0x20);
-	HAL_UART_Transmit(&huart2, &data_Space, sizeof(uint8_t), 0x20);	
+	HAL_ADC_PollForConversion(&hadc, 10);
+		if ((HAL_ADC_GetState(&hadc) & HAL_ADC_STATE_REG_EOC) == HAL_ADC_STATE_REG_EOC)
+    {
+      place++;
+			if(place == 10){
+				adc = HAL_ADC_GetValue(&hadc);
+				place = 0;
+			}
+    }
+	//adc = HAL_ADC_GetValue(&hadc);
+	//HAL_UART_Transmit(&huart2, data_accel_x, 21*sizeof(uint8_t), 0x20);		
+	itoa(adc);
+	HAL_UART_Transmit(&huart2, data_r_n, 4*sizeof(uint8_t), 0x20);	
+	for(i=0;i<100000;i++);
   /* USER CODE BEGIN 3 */
 
   }

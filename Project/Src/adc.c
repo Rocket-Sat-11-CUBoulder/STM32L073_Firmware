@@ -47,6 +47,7 @@
 
 #include "gpio.h"
 
+#define zero_to_nine 0
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */
@@ -67,7 +68,7 @@ void MX_ADC_Init(void)
   hadc.Init.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;
   hadc.Init.ScanConvMode = ADC_SCAN_DIRECTION_FORWARD;
   hadc.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc.Init.ContinuousConvMode = DISABLE;
+  hadc.Init.ContinuousConvMode = ENABLE;
   hadc.Init.DiscontinuousConvMode = DISABLE;
   hadc.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc.Init.ExternalTrigConv = ADC_SOFTWARE_START;
@@ -81,7 +82,7 @@ void MX_ADC_Init(void)
   {
     Error_Handler();
   }
-
+#if zero_to_nine 
     /**Configure for the selected ADC regular channel to be converted. 
     */
   sConfig.Channel = ADC_CHANNEL_0;
@@ -154,7 +155,7 @@ void MX_ADC_Init(void)
   {
     Error_Handler();
   }
-
+#endif
     /**Configure for the selected ADC regular channel to be converted. 
     */
   sConfig.Channel = ADC_CHANNEL_14;

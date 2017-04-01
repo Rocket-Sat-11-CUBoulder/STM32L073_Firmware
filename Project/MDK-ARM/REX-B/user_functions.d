@@ -33,3 +33,4 @@ rex-b\user_functions.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex
 rex-b\user_functions.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h
 rex-b\user_functions.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h
 rex-b\user_functions.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h
+rex-b\user_functions.o: ../Inc/usart.h

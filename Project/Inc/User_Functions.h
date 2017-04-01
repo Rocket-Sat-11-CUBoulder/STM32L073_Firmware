@@ -31,6 +31,7 @@
 *****************************************************************/
  int8_t* my_itoa(int8_t* str, int32_t data, int32_t base);
  int8_t my_reverse(uint8_t* src, uint32_t length);
+ void itoa(uint32_t value);
 
 
 

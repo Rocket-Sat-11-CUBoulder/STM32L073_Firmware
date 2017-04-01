@@ -44,3 +44,4 @@ rex-b\main.o: ../Inc/user_diskio.h
 rex-b\main.o: ../Inc/spi.h
 rex-b\main.o: ../Inc/usart.h
 rex-b\main.o: ../Inc/gpio.h
+rex-b\main.o: ../Inc/User_Functions.h
