@@ -22,22 +22,28 @@ Dialog DLL:      TARMCM1.DLL V1.11.0.0
  
 <h2>Project:</h2>
 C:\Users\zacas\OneDrive\Documents\Github\STM32L073_Firmware\Project\MDK-ARM\REX-B.uvprojx
-Project File Date:  03/23/2017
+Project File Date:  03/31/2017
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'REX-B'
 compiling main.c...
-../Src/main.c(107): warning:  #177-D: variable "data_A"  was declared but never referenced
+../Src/main.c(96): warning:  #177-D: variable "data_A"  was declared but never referenced
   	uint8_t data_A = 'A';
-../Src/main.c(108): warning:  #177-D: variable "data_Space"  was declared but never referenced
+../Src/main.c(97): warning:  #177-D: variable "data_Space"  was declared but never referenced
   	uint8_t data_Space = ' ';
-../Src/main.c(110): warning:  #177-D: variable "data_accel_x"  was declared but never referenced
+../Src/main.c(98): warning:  #177-D: variable "data_r_n"  was declared but never referenced
+  	uint8_t *data_r_n = "\n\r";
+../Src/main.c(99): warning:  #177-D: variable "data_accel_x"  was declared but never referenced
   	uint8_t *data_accel_x = "Accelerometer X: \n\r";
-../Src/main.c: 3 warnings, 0 errors
+../Src/main.c(124): warning:  #177-D: variable "adc"  was declared but never referenced
+  	uint32_t adc;
+../Src/main.c(126): warning:  #177-D: variable "place"  was declared but never referenced
+  	uint32_t place = 0;
+../Src/main.c: 6 warnings, 0 errors
 linking...
-Program Size: Code=9556 RO-data=260 RW-data=36 ZI-data=1508  
-"REX-B\REX-B.axf" - 0 Error(s), 3 Warning(s).
+Program Size: Code=8928 RO-data=260 RW-data=44 ZI-data=1516  
+"REX-B\REX-B.axf" - 0 Error(s), 6 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -55,7 +61,7 @@ Package Vendor: ARM
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.0.0
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

@@ -50,41 +50,30 @@
 #include "usart.h"
 #include "gpio.h"
 #include "User_Functions.h"
+#define ADC_ON 0
 
-/* USER CODE BEGIN Includes */
-
-/* USER CODE END Includes */
-
-/* Private variables ---------------------------------------------------------*/
-
-/* USER CODE BEGIN PV */
-/* Private variables ---------------------------------------------------------*/
-
-/* USER CODE END PV */
-
-/* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 void Error_Handler(void);
 static void MX_NVIC_Init(void);
 
-/* USER CODE BEGIN PFP */
-/* Private function prototypes -----------------------------------------------*/
+struct reset{
+	uint8_t a, b, c, d;
+}reset;
 
-/* USER CODE END PFP */
+struct take_picture{
+	uint8_t a, b, c, d, e;
+}take_picture;
 
-/* USER CODE BEGIN 0 */
+struct compression{
+	uint8_t a, b, c, d, e, f, g, h, i;
+}compression;
 
-/* USER CODE END 0 */
+struct image_size{
+	uint8_t a, b, c, d, e, f, g, h, i, j;
+}image_size;
 
 int main(void)
 {
-
-  /* USER CODE BEGIN 1 */
-
-  /* USER CODE END 1 */
-
-  /* MCU Configuration----------------------------------------------------------*/
-
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
 
@@ -109,36 +98,61 @@ int main(void)
 	uint8_t *data_r_n = "\n\r";
 	uint8_t *data_accel_x = "Accelerometer X: \n\r";
 	
+	take_picture.a = 0x56;
+	take_picture.b = 0x00;
+	take_picture.c = 0x36;
+	take_picture.d = 0x01;
+	take_picture.e = 0x00;
+	
+	reset.a = 0x56;
+	reset.b = 0x00;
+	reset.c = 0x26;
+	reset.d = 0x00;
+	
+	image_size.a = 0x56;
+	image_size.b = 0x00;
+	image_size.c = 0x31;
+	image_size.d = 0x05;
+	image_size.f = 0x04;
+	image_size.g = 0x01;
+	image_size.h = 0x00;
+	image_size.i = 0x19;
+	image_size.j = 0x00;
+	
+	
 	HAL_ADC_Start(&hadc);
 	uint32_t adc;
 
 	uint32_t place = 0;
   /* USER CODE END 2 */
 	
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
+	
+	HAL_UART_Transmit(&huart1, (uint8_t *)&reset, 4*sizeof(uint8_t), 0x20);
+	//HAL_UART_Transmit(&huart1, (uint8_t *)&image_size, 10*sizeof(uint8_t), 0x20);
+	
+	
+
   while (1)
   {
-  /* USER CODE END WHILE */
+	uint32_t i;
+	#if ADC_ON
 	uint32_t i;
 	HAL_ADC_PollForConversion(&hadc, 10);
-		if ((HAL_ADC_GetState(&hadc) & HAL_ADC_STATE_REG_EOC) == HAL_ADC_STATE_REG_EOC)
-    {
-      place++;
-			if(place == 10){
-				adc = HAL_ADC_GetValue(&hadc);
-				place = 0;
-			}
-    }
+	if ((HAL_ADC_GetState(&hadc) & HAL_ADC_STATE_REG_EOC) == HAL_ADC_STATE_REG_EOC)
+  {
+		adc = HAL_ADC_GetValue(&hadc);
+  }
 	//adc = HAL_ADC_GetValue(&hadc);
 	//HAL_UART_Transmit(&huart2, data_accel_x, 21*sizeof(uint8_t), 0x20);		
 	itoa(adc);
 	HAL_UART_Transmit(&huart2, data_r_n, 4*sizeof(uint8_t), 0x20);	
 	for(i=0;i<100000;i++);
-  /* USER CODE BEGIN 3 */
-
+	#endif
+	//HAL_UART_Transmit(&huart1, (uint8_t *)&data, 5*sizeof(uint8_t), 0x20);
+	HAL_UART_Transmit(&huart1, (uint8_t *)&reset, 4*sizeof(uint8_t), 0x20);
+	for(i=0;i<100000;i++);
   }
-  /* USER CODE END 3 */
+
 
 }
 
