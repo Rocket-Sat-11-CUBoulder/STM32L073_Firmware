@@ -45,3 +45,7 @@ rex-b\main.o: ../Inc/spi.h
 rex-b\main.o: ../Inc/usart.h
 rex-b\main.o: ../Inc/gpio.h
 rex-b\main.o: ../Inc/User_Functions.h
+rex-b\main.o: ../Inc/sd_diskio.h
+rex-b\main.o: ../Inc/fatfs_sd.h
+rex-b\main.o: ../Inc/stm32_adafruit_sd.h
+rex-b\main.o: ../Inc/stm32l0xx_nucleo.h

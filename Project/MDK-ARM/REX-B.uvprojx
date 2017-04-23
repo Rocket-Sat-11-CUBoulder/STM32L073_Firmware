@@ -434,6 +434,21 @@
               <FileType>1</FileType>
               <FilePath>..\Src\User_Functions.c</FilePath>
             </File>
+            <File>
+              <FileName>sd_diskio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\sd_diskio.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32_adafruit_sd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\stm32_adafruit_sd.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32l0xx_nucleo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\stm32l0xx_nucleo.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

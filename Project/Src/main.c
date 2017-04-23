@@ -50,31 +50,29 @@
 #include "usart.h"
 #include "gpio.h"
 #include "User_Functions.h"
+#include "sd_diskio.h"
+#include "stm32_adafruit_sd.h"
+#include "stm32l0xx_nucleo.h"
+
 #define ADC_ON 0
+extern Diskio_drvTypeDef SD_Driver;
 
 void SystemClock_Config(void);
 void Error_Handler(void);
 static void MX_NVIC_Init(void);
 
-struct reset{
-	uint8_t a, b, c, d;
-}reset;
+/* private variables */
 
-struct take_picture{
-	uint8_t a, b, c, d, e;
-}take_picture;
+/* sd card globals: */
+FATFS SDFatFs;
+FIL MyFile;
+char SDPath[4];
 
-struct compression{
-	uint8_t a, b, c, d, e, f, g, h, i;
-}compression;
-
-struct image_size{
-	uint8_t a, b, c, d, e, f, g, h, i, j;
-}image_size;
+/* end sd card globals */
 
 int main(void)
 {
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+		/* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
 
   /* Configure the system clock */
@@ -88,69 +86,122 @@ int main(void)
   MX_FATFS_Init();
   MX_ADC_Init();
   MX_USART2_UART_Init();
-
+	
+	
   /* Initialize interrupts */
   MX_NVIC_Init();
 
+  // SD card initialization
+	
+	FRESULT res;
+	SD_CardInfo sd_info;
+	uint32_t byteswritten, bytesread; // test size of write/read to confirm success
+	uint8_t wtext[] = "This is a test of the SD card for RockSat REX-B";
+	uint16_t rtext[100]; // read from sd card test array
+	
+	BSP_SD_Init();
+	BSP_SD_GetCardInfo(&sd_info);
+	
+	FATFS_LinkDriver(&SD_Driver, SDPath); // link generic fatfs with sd card driver
+	f_mount(&SDFatFs, (TCHAR const*)SDPath, 0); /// mount logical drive (0 is delayed mount)
+	f_mkfs((TCHAR const*)SDPath, 0, 0); // create file system on logical drive.
+	f_open(&MyFile, "STM32.TXT", FA_CREATE_ALWAYS | FA_WRITE); // open/create file
+	f_write(&MyFile, wtext, sizeof(wtext), (UINT*)&byteswritten); // write data to file.
+	f_read(&MyFile, rtext, sizeof(rtext), (UINT*)&bytesread); // read data back from file.
+	f_close(&MyFile); // close file
+	if(byteswritten == bytesread) { // flip LED to indicate success
+		HAL_GPIO_WritePin(ON_BOARD_LED_GPIO_Port, ON_BOARD_LED_Pin, GPIO_PIN_SET);
+	}
+	
+	
+	/*************** 
+	TODO: 
+		- set CS gpio pin in cube and in stm32l0xx_nucleo.h
+		- remove LCD and other useless code in stm32l0xx_nucleo.h/.c, stm32_adafruit_sd.h/.c
+		- determine if we should use stm32_adafruit_sd or just use fatfs?
+		- housekeeping to clean up and comment necessary code
+	***************/
+		/* main functionality to implement :   
+			* confirm .csv file formatting
+			* write labels for each column (sensor names in order)
+			* buffer for ADC conversion data to be written
+			* once buffer reaches sd block size limit, write data to sd card.
+					(sd cards are written one block at a time.)
+			* once buffer has been emptied write a new line.
+			* repeat
+			
+	*/
+	
+	/* this code uses fatfs and sd_diskio and is probably right, using it as a general
+			structure for our code */
+	
+//	if (FATFS_LinkDriver(&SD_Driver, SDPath) == 0) {
+//		if(f_mount(&SDFatFs, (TCHAR const*)SDPath, 0) != FR_OK) {
+//			/* fatfs init error */
+//			Error_Handler();
+//		}
+//		else {
+//			if (f_mkfs((TCHAR const*)SDPath, 0, 0) != FR_OK) {
+//				/* fatfs format error */
+//				Error_Handler();
+//			}
+//			else {
+//				if(f_open(&MyFile, "STM32.TXT", FA_CREATE_ALWAYS | FA_WRITE) != FR_OK) {
+//					/* 'STM32.TXT' file open for write error.*/
+//					Error_Handler();
+//				}
+//				else {
+//					/* write data to the file */
+//				res = f_write(&MyFile, wtext, sizeof(wtext), (void*)&byteswritten);
+//					
+//					/* close the file */
+//					if(f_close(&MyFile) != FR_OK) {
+//						Error_Handler();
+//					}
+//					
+//					if((byteswritten == 0) || (res!= FR_OK)) {
+//						/* stm32 file write or eof error */
+//						Error_Handler();
+//					}
+//					else {
+//						if(f_open(&MyFile, "STM32.TXT", FA_READ) != FR_OK) {
+//							/* file open for read error */
+//							Error_Handler();
+//						}
+//						else {
+//							// read data from file
+//							res = f_read(&MyFile, rtext, sizeof(rtext), (UINT*)&bytesread);
+//							
+//							if((bytesread == 0) || (res != FR_OK)) {
+//								/* file read or eof error */
+//								Error_Handler();
+//							}
+//							else {
+//								// close the file
+//								f_close(&MyFile);
+//								
+//								if((bytesread != byteswritten)) {
+//									// read data different from expected data
+//									Error_Handler();
+//								}
+//								else {
+//									// flip led for success.
+//									HAL_GPIO_WritePin(ON_BOARD_LED_GPIO_Port, ON_BOARD_LED_Pin, GPIO_PIN_SET);
+//								}
+//							}
+//						}
+//					}
+//				}
+//			}
+//		}
+//	}
+/* end stolen SD code */
   /* USER CODE BEGIN 2 */
-	uint8_t data_A = 'A';
-	uint8_t data_Space = ' ';
-	uint8_t *data_r_n = "\n\r";
-	uint8_t *data_accel_x = "Accelerometer X: \n\r";
-	
-	take_picture.a = 0x56;
-	take_picture.b = 0x00;
-	take_picture.c = 0x36;
-	take_picture.d = 0x01;
-	take_picture.e = 0x00;
-	
-	reset.a = 0x56;
-	reset.b = 0x00;
-	reset.c = 0x26;
-	reset.d = 0x00;
-	
-	image_size.a = 0x56;
-	image_size.b = 0x00;
-	image_size.c = 0x31;
-	image_size.d = 0x05;
-	image_size.f = 0x04;
-	image_size.g = 0x01;
-	image_size.h = 0x00;
-	image_size.i = 0x19;
-	image_size.j = 0x00;
-	
-	
-	HAL_ADC_Start(&hadc);
-	uint32_t adc;
-
-	uint32_t place = 0;
-  /* USER CODE END 2 */
-	
-	
-	HAL_UART_Transmit(&huart1, (uint8_t *)&reset, 4*sizeof(uint8_t), 0x20);
-	//HAL_UART_Transmit(&huart1, (uint8_t *)&image_size, 10*sizeof(uint8_t), 0x20);
-	
-	
+	\
 
   while (1)
   {
-	uint32_t i;
-	#if ADC_ON
-	uint32_t i;
-	HAL_ADC_PollForConversion(&hadc, 10);
-	if ((HAL_ADC_GetState(&hadc) & HAL_ADC_STATE_REG_EOC) == HAL_ADC_STATE_REG_EOC)
-  {
-		adc = HAL_ADC_GetValue(&hadc);
-  }
-	//adc = HAL_ADC_GetValue(&hadc);
-	//HAL_UART_Transmit(&huart2, data_accel_x, 21*sizeof(uint8_t), 0x20);		
-	itoa(adc);
-	HAL_UART_Transmit(&huart2, data_r_n, 4*sizeof(uint8_t), 0x20);	
-	for(i=0;i<100000;i++);
-	#endif
-	//HAL_UART_Transmit(&huart1, (uint8_t *)&data, 5*sizeof(uint8_t), 0x20);
-	HAL_UART_Transmit(&huart1, (uint8_t *)&reset, 4*sizeof(uint8_t), 0x20);
-	for(i=0;i<100000;i++);
+
   }
 
 
@@ -241,6 +292,7 @@ void Error_Handler(void)
   /* User can add his own implementation to report the HAL error return state */
   while(1) 
   {
+		UNUSED(3);
   }
   /* USER CODE END Error_Handler */ 
 }

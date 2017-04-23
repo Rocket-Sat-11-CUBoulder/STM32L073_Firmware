@@ -406,13 +406,12 @@ ARM Macro Assembler    Page 7
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
-work --depend=rex-b\startup_stm32l073xx.d -orex-b\startup_stm32l073xx.o -IC:\Us
-ers\zacas\OneDrive\Documents\Github\STM32L073_Firmware\Project\MDK-ARM\RTE\_REX
--B -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Ke
-il\STM32L0xx_DFP\1.6.0\Device\Include --predefine="__EVAL SETA 1" --predefine="
-__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 522" --predefine="_RTE_ 
-SETA 1" --predefine="STM32L073xx SETA 1" --list=startup_stm32l073xx.lst startup
-_stm32l073xx.s
+work --depend=rex-b\startup_stm32l073xx.d -orex-b\startup_stm32l073xx.o -I.\RTE
+\_REX-B -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include -IC:\Keil_v5\ARM\PA
+CK\Keil\STM32L0xx_DFP\1.6.0\Device\Include --predefine="__EVAL SETA 1" --predef
+ine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 523" --predefine="_
+RTE_ SETA 1" --predefine="STM32L073xx SETA 1" --list=startup_stm32l073xx.lst st
+artup_stm32l073xx.s
 
 
 
