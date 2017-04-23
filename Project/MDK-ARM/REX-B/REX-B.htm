@@ -3,9 +3,9 @@
 <title>Static Call Graph - [REX-B\REX-B.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image REX-B\REX-B.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sat Apr 22 13:38:22 2017
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun Apr 23 16:26:46 2017
 <BR><P>
-<H3>Maximum Stack Usage =       1016 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =       1096 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 main &rArr; f_open &rArr; follow_path &rArr; dir_next &rArr; create_chain &rArr; put_fat &rArr; move_window &rArr; sync_window &rArr; disk_write
 <P>
@@ -380,6 +380,7 @@ Global Symbols
 <LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SD_GetCIDRegister
 </UL>
 <BR>[Called By]<UL><LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SD_ioctl
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[4a]"></a>BSP_SD_GetStatus</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, stm32_adafruit_sd.o(i.BSP_SD_GetStatus))
@@ -1084,13 +1085,13 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = f_mkfs &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_fattime
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_set
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_cpy
 <LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_ldnumber
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_write
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_ioctl
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_initialize
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_set
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_cpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1126,13 +1127,13 @@ Global Symbols
 <P><STRONG><a name="[b9]"></a>f_read</STRONG> (Thumb, 378 bytes, Stack size 72 bytes, ff.o(i.f_read))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = f_read &rArr; get_fat &rArr; move_window &rArr; sync_window &rArr; disk_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clmt_clust
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_cpy
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clmt_clust
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_write
 <LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_read
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_fat
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clust2sect
 <LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;validate
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_cpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1153,13 +1154,13 @@ Global Symbols
 <P><STRONG><a name="[bc]"></a>f_write</STRONG> (Thumb, 434 bytes, Stack size 48 bytes, ff.o(i.f_write))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = f_write &rArr; create_chain &rArr; put_fat &rArr; move_window &rArr; sync_window &rArr; disk_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;create_chain
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_cpy
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;create_chain
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clmt_clust
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_write
 <LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_read
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clust2sect
 <LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;validate
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_cpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1190,8 +1191,8 @@ Global Symbols
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;f_sync
 </UL>
 
-<P><STRONG><a name="[25]"></a>main</STRONG> (Thumb, 236 bytes, Stack size 232 bytes, main.o(i.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 1016<LI>Call Chain = main &rArr; f_open &rArr; follow_path &rArr; dir_next &rArr; create_chain &rArr; put_fat &rArr; move_window &rArr; sync_window &rArr; disk_write
+<P><STRONG><a name="[25]"></a>main</STRONG> (Thumb, 164 bytes, Stack size 312 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1096<LI>Call Chain = main &rArr; f_open &rArr; follow_path &rArr; dir_next &rArr; create_chain &rArr; put_fat &rArr; move_window &rArr; sync_window &rArr; disk_write
 </UL>
 <BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;f_write
 <LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;f_read
@@ -1205,6 +1206,7 @@ Global Symbols
 <LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FATFS_LinkDriver
 <LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SD_Init
+<LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SD_GetCardInfo
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART2_UART_Init
 <LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART1_UART_Init
@@ -1424,11 +1426,11 @@ Local Symbols
 <P><STRONG><a name="[9f]"></a>dir_next</STRONG> (Thumb, 264 bytes, Stack size 24 bytes, ff.o(i.dir_next))
 <BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = dir_next &rArr; create_chain &rArr; put_fat &rArr; move_window &rArr; sync_window &rArr; disk_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;create_chain
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_set
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;create_chain
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_fat
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clust2sect
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sync_window
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_set
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;follow_path
 <LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dir_register
@@ -1437,11 +1439,11 @@ Local Symbols
 <P><STRONG><a name="[a2]"></a>dir_register</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, ff.o(i.dir_register))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = dir_register &rArr; dir_next &rArr; create_chain &rArr; put_fat &rArr; move_window &rArr; sync_window &rArr; disk_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dir_sdi
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_set
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_cpy
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dir_sdi
 <LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dir_next
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;move_window
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_set
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_cpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;f_open
 </UL>
@@ -1551,10 +1553,10 @@ Local Symbols
 <P><STRONG><a name="[bb]"></a>sync_fs</STRONG> (Thumb, 148 bytes, Stack size 16 bytes, ff.o(i.sync_fs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = sync_fs &rArr; sync_window &rArr; disk_write
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_write
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_set
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_write
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;disk_ioctl
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sync_window
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mem_set
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;f_sync
 </UL>
